@@ -194,7 +194,7 @@ First we need to start jupyter on the remote machine. To create ssh session that
 
 ```
 touch run_jupyter.sh
-echo "jupyter notebook --no-browser --port 8001">run_jupyter.sh
+echo "jupyter notebook --no-browser --port 8001 --ip 0.0.0.0">run_jupyter.sh
 chmod +x run_jupyter.sh
 ```
 __Please, select the port number according to your username in format 8***, where *** are the last three numbers of your username. E.g. for user ml1202009 the port will be 8009. Double check the port you've specified.__
@@ -222,10 +222,10 @@ and press ctrl+B D to hide the tmux terminal.
 
 ```
 touch port_forward_msai_machine.sh
-echo "ssh -N -f -L localhost:8001:localhost:8007 my_new_machine">port_forward_remote_machine.sh
+echo "ssh -N -f -L localhost:7001:localhost:8001 my_new_machine">port_forward_remote_machine.sh
 chmod +x port_forward_remote_machine.sh
 ```
-In the `ssh` command above you request port forwarding from 8001 port on remote to 8009 port on local machine. So if you started jupyter on 8005 port on remote machine, it should be `localhost:8005:localhost:8007`. The host name `my_new_machine` was specified in the first part of this guide in the `.ssh/config` file.
+In the `ssh` command above you request port forwarding from 8001 port on remote to 7001 port on local machine. So if you started jupyter on 8005 port on remote machine, it should be `localhost:7001:localhost:8005`. The host name `my_new_machine` was specified in the first part of this guide in the `.ssh/config` file.
 
 _Comment: you might want to use different local port. To find a free port, one might run the following command: `for i in {1..1024}; do (exec 2>&-; echo > /dev/tcp/localhost/$i && echo $i is open); done`_
 
