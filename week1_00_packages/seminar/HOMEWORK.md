@@ -19,3 +19,6 @@ Additional requirements:
 - isort
 - black
 - flake8
+
+- Add requirements file
+- Add install requirements target in Makefile 
