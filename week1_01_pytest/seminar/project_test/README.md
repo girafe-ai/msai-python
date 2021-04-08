@@ -17,4 +17,4 @@
 - [Mock](https://docs.python.org/3.7/library/unittest.mock.html)
 
 # Pydocstyle
-- [Pydocstyle](http://www.pydocstyle.org/en/stable/usage.html#usage-with-the-pre-commit-git-hooks-framework) by [Serge Fedoruk](https://github.com/Amanit)
+- [Pydocstyle](http://www.pydocstyle.org/en/stable/usage.html#usage-with-the-pre-commit-git-hooks-framework) suggested by [Serge Fedoruk](https://github.com/Amanit)
