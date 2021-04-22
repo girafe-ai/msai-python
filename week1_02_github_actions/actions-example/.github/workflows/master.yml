@@ -1,0 +1,27 @@
+name: Push events on master branch
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  dumb:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Im alive
+        run: echo "Im alive"
+
+  test:
+    runs-on: ubuntu-latest
+    needs: [dumb]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+      - name: Install dependencies
+        run: make install-dev
+      - name: Test with pytest
+        run: make test
