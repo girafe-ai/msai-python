@@ -1,6 +1,6 @@
 ## Literature
 
-> You may add other books and articles by creating a Pull Request
+> You may add other books and articles to this page by creating a Pull Request
 
 
 ### Official choice

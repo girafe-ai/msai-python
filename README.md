@@ -2,7 +2,10 @@
 
 ### ⭐ Annotation
 
-This course focuses on the fundamentals of software engineering. Proper design is an important part of any project. This course covers the basics of the Python programming language, basic concepts and language constructs. Along with this, this course provides tools for using Python programming language in complex projects. You will gain insight into the correct design of the code, maintaining the codebase and integrating your applications with others.
+This course focuses on the fundamentals of software engineering. Proper design is an important part of any project.
+This course covers the basics of the Python programming language, basic concepts and language constructs.
+Along with this, this course provides tools for using Python programming language in complex projects.
+You will gain insight into the correct design of the code, maintaining the codebase and integrating your applications with others.
 
 
 ### 📜 Course instructions
@@ -13,10 +16,14 @@ This course focuses on the fundamentals of software engineering. Proper design i
 - [Superstars](/docs/course-instructions.md#superstars)
 
 
-### 🧪 [Course plan](/docs/course-plan.md)
+### 🧪 Course plan
+
+[Course plan](/docs/course-plan.md) contains topics divided by weeks. Plan is approximate and being improved during the course.
 
 
-### 📚 [Literature](/docs/literature.md)
+### 📚 Literature
+
+[Literature](/docs/literature.md) list with books, articles and instruments useful for Python learning. You may add something to this list.
 
 
 ### 🎞 Content
