@@ -1,4 +1,4 @@
-# MSAI Software Development & Python — Fall 2021, MIPT
+## MSAI Software Development & Python — Fall 2021, MIPT
 
 ### ⭐ Annotation
 
