@@ -1,6 +1,6 @@
 ## 1st Semester plan
 
-This plan being improved every week.
+> This plan being improved every week.
 
 ### Week 1 - Python first touch
 

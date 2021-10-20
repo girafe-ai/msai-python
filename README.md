@@ -13,6 +13,14 @@ This course focuses on the fundamentals of software engineering. Proper design i
 - [Superstars](docs/course-instructions.md#superstars)
 
 
-## 🍿 [Course plan](docs/course-plan.md)
+## 🧪 [Course plan](docs/course-plan.md)
 
 This plan being improved every week.
+
+
+## 🎞 Content
+
+| Week | Topic | Lecture Materials | Seminar materials | Home Assignment | Sending Deadline | Review Deadline |
+|:----:| ----- |:-----------------:|:-----------------:|:---------------:|:----------------:|:---------------:|
+| 01 | Python first touch | | | | | |
+| 02 | Expressions and statements | | | | | |
