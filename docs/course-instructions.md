@@ -41,7 +41,7 @@ I will try to answer same day, but reserve the right to answer within 7 days. Pr
 
 ### Memes chat [to be created]
 
-![memes-chat.jpg](/docs/course-instructions/utils/memes-chat.jpg)
+![memes-chat.jpg](/docs/utils/memes-chat.jpg)
 
 
 ### [Anonymous form](https://forms.gle/dkXA2ETwcRNhUL4X9)

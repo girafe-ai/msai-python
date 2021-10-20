@@ -7,13 +7,13 @@ This course focuses on the fundamentals of software engineering. Proper design i
 
 ## 📜 Course instructions
 
-- [Communication](docs/course-instructions.md#communication)
-- [Homework](docs/course-instructions.md#homework)
-- [Marks, missed deadlines and non-attendance](docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
-- [Superstars](docs/course-instructions.md#superstars)
+- [Communication](/docs/course-instructions.md#communication)
+- [Homework](/docs/course-instructions.md#homework)
+- [Marks, missed deadlines and non-attendance](/docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
+- [Superstars](/docs/course-instructions.md#superstars)
 
 
-## 🧪 [Course plan](docs/course-plan.md)
+## 🧪 [Course plan](/docs/course-plan.md)
 
 This plan being improved every week.
 
@@ -22,5 +22,5 @@ This plan being improved every week.
 
 | Week | Topic | Lecture Materials | Seminar materials | Home Assignment | Sending Deadline | Review Deadline |
 |:----:| ----- |:-----------------:|:-----------------:|:---------------:|:----------------:|:---------------:|
-| 01 | Python first touch | | | | | |
-| 02 | Expressions and statements | | | | | |
+| 01 | Python first touch | [lecture01](/week01_python_first_touch/lecture) | [seminar01](/week01_python_first_touch/seminar) | TODO | TODO | TODO |
+| 02 | Expressions and statements | [lecture02](/week02_expressions_and_statements/lecture) | TODO | TODO | TODO | TODO |
