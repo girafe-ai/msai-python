@@ -23,7 +23,7 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 ### 📚 Literature
 
-[Literature](/docs/literature.md) list of books, articles and instruments useful for Python learning. Your suggestions for this page are appreciated.
+[Literature](/docs/literature.md): books, articles and instruments useful for Python learning. Your suggestions for this page are appreciated.
 
 
 ### 🎞 Content
