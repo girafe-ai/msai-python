@@ -32,3 +32,4 @@ You will gain insight into the correct design of the code, maintaining the codeb
 |:----:| ----- |:-----------------:|:-----------------:|:---------------:|:----------------:|:---------------:|
 | 01 | Python first touch | [lecture01](/week01_python_first_touch/lecture) | [seminar01](/week01_python_first_touch/seminar) | TODO | TODO | TODO |
 | 02 | Expressions and statements | [lecture02](/week02_expressions_and_statements/lecture) | [seminar02](/week02_expressions_and_statements/seminar) | TODO | TODO | TODO |
+| 03 | Functions | [lecture03](/week03_functions/lecture) | [seminar03](/week03_functions/seminar) | TODO | TODO | TODO |
