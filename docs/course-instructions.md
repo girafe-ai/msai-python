@@ -23,10 +23,10 @@ Teachers are not allowed in students only chat. Probably you already have one, i
 
 You are free to spread gossip, to laugh at teachers, and to ask each other the silliest Python questions (but remember - somebody can forward your messages).
 
-Most importantly, you can help each other, share links to any materials that helped you, etc.
+Most importantly, you can help each other, share links to any materials that helped you, etc.
 
 
-### Chat for students and teachers [to be created]
+### Chat for students and teachers (look for invite link in course chat)
 
 This is our official community.
 
@@ -39,7 +39,7 @@ If it is not a question of grave and imminent danger, don't text me or someone e
 I will try to answer same day, but reserve the right to answer within 7 days. Probably in most cases help comes from someone who quicker than me, that's totally ok 🙂
 
 
-### Memes chat [to be created]
+### Memes chat (look for invite link in course chat)
 
 ![memes-chat.jpg](/docs/utils/memes-chat.jpg)
 
