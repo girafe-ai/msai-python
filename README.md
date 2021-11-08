@@ -14,8 +14,6 @@ You will gain insight into the correct design of the code, maintaining the codeb
 - [Homework](/docs/course-instructions.md#homework)
 - [Marks, missed deadlines and non-attendance](/docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
 - [Superstars](/docs/course-instructions.md#superstars)
-
-
 - [Code review tips](/docs/code-review-tips.md)
 
 
