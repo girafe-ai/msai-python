@@ -16,6 +16,9 @@ You will gain insight into the correct design of the code, maintaining the codeb
 - [Superstars](/docs/course-instructions.md#superstars)
 
 
+- [Code review tips](/docs/code-review-tips.md)
+
+
 ### 🧪 Course plan
 
 [Course plan](/docs/course-plan.md) contains topics divided by weeks. Plan is approximate and being improved during the course.
