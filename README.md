@@ -34,3 +34,5 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | 01 | Python first touch | [lecture01](/week01_python_first_touch/lecture) | [seminar01](/week01_python_first_touch/seminar) | [ha01](https://forms.gle/iLFbyMk11CmvxnSB8) | 07.11.2021 | 14.11.2021 |
 | 02 | Expressions and statements | [lecture02](/week02_expressions_and_statements/lecture) | [seminar02](/week02_expressions_and_statements/seminar) | TODO | TODO | TODO |
 | 03 | Functions | [lecture03](/week03_functions/lecture) | [seminar03](/week03_functions/seminar) | TODO | TODO | TODO |
+| 04 | Functions | - | [seminar04](/week04_functions2/seminar) | - | - | - |
+| 05 | Classes, Tasks | TODO | [seminar05](/week05_tasks/seminar) | TODO | TODO | TODO |

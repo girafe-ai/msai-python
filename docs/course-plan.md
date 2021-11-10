@@ -22,7 +22,7 @@
 
 *Where to code: Python shell, text editors + terminal/command prompt, online code editors*
 
-### Week 3 - Functions
+### Week 3-4 - Functions
 
 - Function
 - Namespaces, Closure
@@ -32,35 +32,27 @@
 
 *Where to code: Jupyter Notebook / Google Colab*
 
-### Week 4 - Classes part 1
+### Week 5-6 - Classes
 
 - Class
 - Magic (dunder) methods
 - Class attributes, classmethod, staticmethod
-
-*Where to code: PyCharm IDE*
-
-### Week 5 - Classes part 2
-
 - Inheritance
+- metaclasses
+- Class decorators
 - dataclasses
 - OOP basics
 
-*Where to code: Visual Studio IDE*
+*Where to code: PyCharm IDE*
 
-### Week 6 - Exceptions
-
-- Built-In Exceptions
-- Handling exception
-- debugging
-
-*Where to code: now and later — any preferred instrument*
-
-### Week 7 - Iterables
+### Week 7 - Iterables, Exceptions
 
 - Iterables and Iterators
 - Generators
 - Context manager
+- Built-In Exceptions
+- Handling exception
+- debugging
 
 ### Week 8 - Imports
 
@@ -69,6 +61,8 @@
 - pip
 - Virtual environment
 - inspect
+
+*Where to code: Visual Studio IDE*
 
 ### Week 9 - The Python Standard Library
 
@@ -84,6 +78,8 @@
 
 - threading
 - multiprocessing
+
+*Where to code: now and later — any preferred instrument*
 
 ### Week 11 - Network
 
