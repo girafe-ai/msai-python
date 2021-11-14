@@ -32,7 +32,7 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | Week | Topic | Lecture Materials | Seminar materials | Home Assignment | Sending Deadline | Review Deadline |
 |:----:| ----- |:-----------------:|:-----------------:|:---------------:|:----------------:|:---------------:|
 | 01 | Python first touch | [lecture01](/week01_python_first_touch/lecture) | [seminar01](/week01_python_first_touch/seminar) | [ha01](https://forms.gle/iLFbyMk11CmvxnSB8) | 07.11.2021 | 14.11.2021 |
-| 02 | Expressions and statements | [lecture02](/week02_expressions_and_statements/lecture) | [seminar02](/week02_expressions_and_statements/seminar) | TODO | TODO | TODO |
+| 02 | Expressions and statements | [lecture02](/week02_expressions_and_statements/lecture) | [seminar02](/week02_expressions_and_statements/seminar) | [ha02p1](https://forms.gle/bcxqpCGtFWsjV5og7) [ha02p2](https://forms.gle/wJ9RLpcmWDUaBFhFA) [ha02p3](https://forms.gle/G3hsyTzGZ2n41gPZ7) | 21.11.2021 | 28.11.2021 |
 | 03 | Functions | [lecture03](/week03_functions/lecture) | [seminar03](/week03_functions/seminar) | TODO | TODO | TODO |
 | 04 | Functions | - | [seminar04](/week04_functions2/seminar) | - | - | - |
 | 05 | Classes, Tasks | TODO | [seminar05](/week05_tasks/seminar) | TODO | TODO | TODO |
