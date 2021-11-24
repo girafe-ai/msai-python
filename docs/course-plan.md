@@ -2,7 +2,7 @@
 
 > This plan is being improved every week.
 
-### Week 1 - Python first touch
+### 1. Python first touch
 
 - About course, Python overview
 - Python installation
@@ -12,7 +12,7 @@
 
 *Where to code: Python shell, text editors + terminal/command prompt, online code editors*
 
-### Week 2 - Expressions and statements
+### 2. Expressions and statements
 
 - Operators and expressions
 - if statement, ternary operator
@@ -22,7 +22,7 @@
 
 *Where to code: Python shell, text editors + terminal/command prompt, online code editors*
 
-### Week 3-4 - Functions
+### 3. Functions
 
 - Function
 - Namespaces, Closure
@@ -32,7 +32,7 @@
 
 *Where to code: Jupyter Notebook / Google Colab*
 
-### Week 5-6 - Classes
+### 4. Classes
 
 - Class
 - Magic (dunder) methods
@@ -45,7 +45,7 @@
 
 *Where to code: PyCharm IDE*
 
-### Week 7 - Iterables, Exceptions
+### 5. Iterables, Exceptions
 
 - Iterables and Iterators
 - Generators
@@ -54,7 +54,7 @@
 - Handling exception
 - debugging
 
-### Week 8 - Imports
+### 6. Imports
 
 - Modules
 - Packages
@@ -64,7 +64,7 @@
 
 *Where to code: Visual Studio IDE*
 
-### Week 9 - The Python Standard Library
+### 7. The Python Standard Library
 
 - Standard Library review
 - Regular expressions
@@ -74,20 +74,20 @@
 - itertools and functools
 - File and Directory access
 
-### Week 10 - Concurrency
+### 8. Concurrency
 
 - threading
 - multiprocessing
 
 *Where to code: now and later — any preferred instrument*
 
-### Week 11 - Network
+### 9. Network
 
 - Making a request
 - Data formats: JSON, XML, CSV
 - Web scrapping
 
-### Week 12 - Before publishing
+### 10. Before publishing
 
 - Code style
 - Logging
