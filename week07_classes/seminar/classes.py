@@ -1,4 +1,3 @@
-@classmethod
 def foo(*args, **kwargs):
     print(args, kwargs)
 
@@ -6,6 +5,8 @@ def foo(*args, **kwargs):
 class Test:
     d = {}
 
+    # Class variable is method if it is callable.
+    # By default, first argument of method is self, even if function created outside the class.
     bar = foo
 
     def __init__(self):
@@ -29,22 +30,30 @@ class Test:
         return self.__b
 
 
+# running a method
 a = Test()
 a.bar()
 
+# accessing property
 print(Test)
 print(a.b)
-print(a.b)
 
-# a._Test__b = 3
-# print(a._Test__b)
+# accessing "private" attribute
+print(a._Test__b)
+a._Test__b = 3
+print(a._Test__b)
 
-# a = Test()
-# Test.d['1'] = '1'
-# b = Test()
-#
-# a.test_3()
-# Test.test_3()
+# class attributes are common for all instances of class
+# because they are attached to a class, not to specific instance
+a = Test()
+Test.d['1'] = '1'
+b = Test()
+print(a.d, Test.d, b.d)
 
-# print(type(a))
-# print(type(Test))
+# classmethod-decorated methods are also attached to a class
+a.test_3()
+Test.test_3()
+
+# classes are objects, so they have types too
+print(type(a))
+print(type(Test))

@@ -29,7 +29,7 @@ class Point:
         self._y = self._validate_float(value)
 
     def vector_length(self):
-        return  # TODO
+        return (self._x ** 2 + self._y ** 2) ** 0.5
 
 
 p = Point(10, 20.5)
@@ -39,4 +39,6 @@ print(p)
 p.x = 5
 p.x = 5.5
 print(p)
-p.x = '123'  # Throw exception
+# p.x = '123'  # Throws exception
+
+print(Point(1, 1).vector_length())
