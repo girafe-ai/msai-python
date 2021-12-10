@@ -39,4 +39,4 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | 06 | Git & PyCharm | - | [seminar06](/week06_git_pycharm/seminar) | - | - | - |
 | 07 | Classes | [lecture04](/week07_classes/lecture) | [seminar07](/week07_classes/seminar) | TODO | TODO | TODO |
 | 08 | Gap week, QA Session | - | - | - | - | - |
-| 09 | Gap week, QA Session | - | [seminar08](/week09_classes/seminar) | TODO | TODO | TODO |
+| 09 | Classes (special attributes & methods, class decorators) | [lecture05](/week09_classes/lecture) | [seminar08](/week09_classes/seminar) | TODO | TODO | TODO |
