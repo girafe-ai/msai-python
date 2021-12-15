@@ -40,3 +40,4 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | 07 | Classes | [lecture04](/week07_classes/lecture) | [seminar07](/week07_classes/seminar) | TODO | TODO | TODO |
 | 08 | Gap week, QA Session | - | - | - | - | - |
 | 09 | Classes (special attributes & methods, class decorators) | [lecture05](/week09_classes/lecture) | [seminar08](/week09_classes/seminar) | TODO | TODO | TODO |
+| 10 | Classes (inheritance, Qt) | - | [seminar09](/week10_classes/seminar) | TODO | TODO | TODO |
