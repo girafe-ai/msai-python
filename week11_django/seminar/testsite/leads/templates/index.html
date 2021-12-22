@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+    <h1>New Product Django 2022!</h1>
+    <p>
+        If you want to be beta-tester, submit the form
+    </p>
+    <p>
+        {{ message }}
+    </p>
+    <form action="/" method="post">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="John Smith" />
+        <input type="email" name="email" placeholder="John@Smith.com" />
+        <button type="submit">Submit</button>
+    </form>
+
+
+<!--    {{ time }}<br>-->
+<!--    {{ request.method }}<br>-->
+<!--    {{ request.headers }}-->
+</body>
+</html>

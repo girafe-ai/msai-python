@@ -5,6 +5,8 @@
     <title>Main page</title>
 </head>
 <body>
-    Hello, world. You're at the polls index.
+    {% for lead in leads %}
+        {{ lead.name }} {{ lead.email }}<br>
+    {% endfor %}
 </body>
 </html>
