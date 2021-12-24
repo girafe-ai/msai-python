@@ -30,6 +30,9 @@
 - [PyCharm First Steps](https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html)
 - [PyCharm tutorial from tutorialspoint](https://www.tutorialspoint.com/pycharm/index.htm)
 
+#### Django
+- [Django docs & tutorials](https://docs.djangoproject.com/en/4.0/)
+- [Bootstrap toolkit for front-end](https://getbootstrap.com/)
 
 ### Alexander Solovyev's choice
 - Fluent Python by Luciano Ramalho O'Reilly Media, Inc. 2015
