@@ -34,6 +34,10 @@
 - [Django docs & tutorials](https://docs.djangoproject.com/en/4.0/)
 - [Bootstrap toolkit for front-end](https://getbootstrap.com/)
 
+#### Telegram bots
+- [Telegram bots docs & examples](https://core.telegram.org/bots)
+- [python-telegram-bot package](https://github.com/python-telegram-bot/python-telegram-bot)
+
 ### Alexander Solovyev's choice
 - Fluent Python by Luciano Ramalho O'Reilly Media, Inc. 2015
 - Learn Python 3 the Hard Way Zed A. Shaw Addison-Wesley, 2016
