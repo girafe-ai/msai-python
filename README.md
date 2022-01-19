@@ -43,3 +43,6 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | 10 | Classes (inheritance, Qt) | - | [seminar09](/week10_classes/seminar) | TODO | TODO | TODO |
 | 11 | Django | - | [seminar10](/week11_django/seminar) | - | - | - |
 | 12 | Telegram bots | - | [seminar11](/week12_telegram_bots/seminar) | - | - | - |
+| 13 | Holidays | - | - | - | - | - |
+| 14 | Open-source project launch | - | - | - | - | - |
+| 15 | Exceptions & Files & Context manager | - | [seminar12](/week15_exceptions_open_with/seminar) | - | - | - |
