@@ -21,6 +21,8 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 [Course plan](/docs/course-plan.md) contains topics divided by weeks. Plan is approximate and being improved during the course.
 
+[Exam topics](/docs/exam-topics.md) for the 1st semester.
+
 
 ### 📚 Literature
 
