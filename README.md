@@ -39,10 +39,10 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | 04 | Functions | - | [seminar04](/week04_functions2/seminar) | - | - | - |
 | 05 | Tasks & Flask | - | [seminar05](/week05_tasks_flask/seminar) | - | - | - |
 | 06 | Git & PyCharm | - | [seminar06](/week06_git_pycharm/seminar) | - | - | - |
-| 07 | Classes | [lecture04](/week07_classes/lecture) | [seminar07](/week07_classes/seminar) | TODO | TODO | TODO |
+| 07 | Classes | [lecture04](/week07_classes/lecture) | [seminar07](/week07_classes/seminar) | - | - | - |
 | 08 | Gap week, QA Session | - | - | - | - | - |
-| 09 | Classes (special attributes & methods, class decorators) | [lecture05](/week09_classes/lecture) | [seminar08](/week09_classes/seminar) | TODO | TODO | TODO |
-| 10 | Classes (inheritance, Qt) | - | [seminar09](/week10_classes/seminar) | TODO | TODO | TODO |
+| 09 | Classes (special attributes & methods, class decorators) | [lecture05](/week09_classes/lecture) | [seminar08](/week09_classes/seminar) | - | - | - |
+| 10 | Classes (inheritance, Qt) | - | [seminar09](/week10_classes/seminar) | - | - | - |
 | 11 | Django | - | [seminar10](/week11_django/seminar) | - | - | - |
 | 12 | Telegram bots | - | [seminar11](/week12_telegram_bots/seminar) | - | - | - |
 | 13 | Holidays | - | - | - | - | - |
