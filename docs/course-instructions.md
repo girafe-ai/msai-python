@@ -12,7 +12,7 @@
 To respect each other and each other's time, we will use:
 
 - 3 chats to learn python: for students only, for students and teachers and memes chat
-- [Anonymous form](https://forms.gle/dkXA2ETwcRNhUL4X9)
+- [Anonymous form](https://docs.google.com/forms/d/e/1FAIpQLSfRBwP8Y7DIjO0HN7CoeZ2yMPzmWgUuLCH_y50PCXekjmS23Q/viewform?usp=sf_link)
 - Questions time before classes
 - Calendar
 
@@ -44,7 +44,7 @@ I will try to answer same day, but reserve the right to answer within 7 days. Pr
 ![memes-chat.jpg](/docs/utils/memes-chat.jpg)
 
 
-### [Anonymous form](https://forms.gle/dkXA2ETwcRNhUL4X9)
+### [Anonymous form](https://docs.google.com/forms/d/e/1FAIpQLSfRBwP8Y7DIjO0HN7CoeZ2yMPzmWgUuLCH_y50PCXekjmS23Q/viewform?usp=sf_link)
 
 Please share any feedback and complaints there. Only I have access to form submissions, but I can share it with somebody if I deem it necessary.
 
@@ -75,7 +75,7 @@ That's why we are using **1-to-5 technique:**
   - *[Code review tips](/docs/code-review-tips.md)*
 - You need to send your homework before the **sending deadline** and provide reviews before the **review deadline**, which is one week later
   - *If you miss a deadline, it affects your groupmates. Fortunately, every work has 5 reviewers and every student has 5 submitters. — if 1 or 2 works will be missed, it is not a tragedy.*
-  - *Sometimes you have emergent business to do. That's why every student has **3 extra days** to prolong HA deadlines. To use "time freeze", text me in telegram. In that case you should act like (late submitter)[/docs/code-review-tips.md#what-to-do-if-youve-missed-the-sending-deadline-but-still-want-to-finish-ha-or-make-a-review].*
+  - *Sometimes you have emergent business to do. That's why every student has **3 extra days** to prolong HA deadlines. To use "time freeze", [text me](https://t.me/nlevashov). In that case you should act like [late submitter](/docs/code-review-tips.md#what-to-do-if-youve-missed-the-sending-deadline-but-still-want-to-finish-ha-or-make-a-review).*
 
 To make it more fun, every home assignment may have several variants. You'll have a random one. Of course, you can solve as many variants as you want, but without review assurance.
 

@@ -1,9 +1,9 @@
 # Course instructions
 
-- [Communication](/docs/course-instructions.md#communication)
-- [Homework](/docs/course-instructions.md#homework)
-- [Marks, missed deadlines and non-attendance](/docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
-- [Superstars](/docs/course-instructions.md#superstars)
+- [Communication](/semester1/docs/course-instructions.md#communication)
+- [Homework](/semester1/docs/course-instructions.md#homework)
+- [Marks, missed deadlines and non-attendance](/semester1/docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
+- [Superstars](/semester1/docs/course-instructions.md#superstars)
 
 
 
@@ -41,7 +41,7 @@ I will try to answer same day, but reserve the right to answer within 7 days. Pr
 
 ### Memes chat (look for invite link in course chat)
 
-![memes-chat.jpg](/docs/utils/memes-chat.jpg)
+![memes-chat.jpg](/semester1/docs/utils/memes-chat.jpg)
 
 
 ### [Anonymous form](https://forms.gle/dkXA2ETwcRNhUL4X9)
@@ -72,7 +72,7 @@ That's why we are using **1-to-5 technique:**
 - Every student gets 5 random works to make a review
 - Providing reviews is part of homework
   - *You don't need to give a mark, only comment code, notice errors, give some advice on code style and how to make it simpler and clearer.*
-  - [Code review tips](/docs/code-review-tips.md)
+  - [Code review tips](/semester1/docs/code-review-tips.md)
 - You need to send your homework before the **sending deadline** and provide reviews before the **review deadline**, which is one week later
   - *If you miss a deadline, it affects your groupmates. Fortunately, every work has 5 reviewers and every student has 5 submitters. — if 1 or 2 works will be missed, it is not a tragedy.*
 
