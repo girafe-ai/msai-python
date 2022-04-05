@@ -30,7 +30,7 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 ### 🎞 Content
 
-| # | Topic | Materials | Home Assignment | HA Deadlines |
-|:-:| ----- |:---------:|:---------------:|:------------:|
-| `01` | OOP Design Patterns | [seminar01](/week01_oop_design_patterns/seminar) | [ha04](https://docs.google.com/forms/d/e/1FAIpQLSeFMMhzQpOTDHps4HOFhntkh0v3BliFRqURkj354rnNWfg2jA/viewform?usp=sf_link) | send - `03.04.2022`, review - `10.04.2022` |
-| `02` | OOP Design Patterns | [seminar02](/week02_oop_design_patterns/seminar) | TODO | send - `17.04.2022`, review - `24.04.2022` |
+| # | Topic | Materials | Home Assignment | Sending / Review Deadlines |
+|:-:| ----- |:---------:|:---------------:|:--------------------------:|
+| `01` | OOP Design Patterns | [seminar01](/week01_oop_design_patterns/seminar) | [ha04](https://docs.google.com/forms/d/e/1FAIpQLSeFMMhzQpOTDHps4HOFhntkh0v3BliFRqURkj354rnNWfg2jA/viewform?usp=sf_link) | `03.04.2022 / 10.04.2022` |
+| `02` | OOP Design Patterns | [seminar02](/week02_oop_design_patterns/seminar) | TODO | `17.04.2022 / 24.04.2022` |
