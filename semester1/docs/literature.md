@@ -10,7 +10,7 @@
 
 ### Mentioned during the course
 - Functional Programming in Python by David Mertz. O'Reilly Media, Inc., 2015
-- Gang of Four
+
 
 ### Tutorials and HOWTOs
 
@@ -37,11 +37,6 @@
 #### Telegram bots
 - [Telegram bots docs & examples](https://core.telegram.org/bots)
 - [python-telegram-bot package](https://github.com/python-telegram-bot/python-telegram-bot)
-
-#### OOP
-- Design Patterns
-- Anti-patterns
-
 
 ### Alexander Solovyev's choice
 - Fluent Python by Luciano Ramalho O'Reilly Media, Inc. 2015
