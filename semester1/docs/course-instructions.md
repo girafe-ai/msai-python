@@ -1,9 +1,9 @@
 # Course instructions
 
-- [Communication](/docs/course-instructions.md#communication)
-- [Homework](/docs/course-instructions.md#homework)
-- [Marks, missed deadlines and non-attendance](/docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
-- [Superstars](/docs/course-instructions.md#superstars)
+- [Communication](/semester1/docs/course-instructions.md#communication)
+- [Homework](/semester1/docs/course-instructions.md#homework)
+- [Marks, missed deadlines and non-attendance](/semester1/docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
+- [Superstars](/semester1/docs/course-instructions.md#superstars)
 
 
 
@@ -12,7 +12,7 @@
 To respect each other and each other's time, we will use:
 
 - 3 chats to learn python: for students only, for students and teachers and memes chat
-- [Anonymous form](https://docs.google.com/forms/d/e/1FAIpQLSfRBwP8Y7DIjO0HN7CoeZ2yMPzmWgUuLCH_y50PCXekjmS23Q/viewform?usp=sf_link)
+- [Anonymous form](https://forms.gle/dkXA2ETwcRNhUL4X9)
 - Questions time before classes
 - Calendar
 
@@ -41,10 +41,10 @@ I will try to answer same day, but reserve the right to answer within 7 days. Pr
 
 ### Memes chat (look for invite link in course chat)
 
-![memes-chat.jpg](/docs/utils/memes-chat.jpg)
+![memes-chat.jpg](/semester1/docs/utils/memes-chat.jpg)
 
 
-### [Anonymous form](https://docs.google.com/forms/d/e/1FAIpQLSfRBwP8Y7DIjO0HN7CoeZ2yMPzmWgUuLCH_y50PCXekjmS23Q/viewform?usp=sf_link)
+### [Anonymous form](https://forms.gle/dkXA2ETwcRNhUL4X9)
 
 Please share any feedback and complaints there. Only I have access to form submissions, but I can share it with somebody if I deem it necessary.
 
@@ -64,7 +64,7 @@ Events will have notifications and contain zoom links to classes. Links will als
 
 ## Homework
 
-Readable, understandable and enjoyable code comes from programmers who read, understand and get inspired by tons of someone else's code. Who inherits cool techniques and approaches. Besides, there are too many students to give high-quality reviews for everyone's homework every week.
+Readable, understandable and enjoyable code comes from programmers who read, understand and get inspired by tons of someone else's code. Who inherits cool techniques and approaches. Besides, there are too many students for me to give high-quality reviews for everyone's homework every week.
 
 That's why we are using **1-to-5 technique:**
 
@@ -72,14 +72,11 @@ That's why we are using **1-to-5 technique:**
 - Every student gets 5 random works to make a review
 - Providing reviews is part of homework
   - *You don't need to give a mark, only comment code, notice errors, give some advice on code style and how to make it simpler and clearer.*
-  - *[Code review tips](/docs/code-review-tips.md)*
+  - [Code review tips](/semester1/docs/code-review-tips.md)
 - You need to send your homework before the **sending deadline** and provide reviews before the **review deadline**, which is one week later
   - *If you miss a deadline, it affects your groupmates. Fortunately, every work has 5 reviewers and every student has 5 submitters. — if 1 or 2 works will be missed, it is not a tragedy.*
-  - *Sometimes you have emergent business to do. That's why every student has **3 extra days** to prolong HA deadlines. To use "time freeze", [text me](https://t.me/nlevashov). In that case you should act like [late submitter](/docs/code-review-tips.md#what-to-do-if-youve-missed-the-sending-deadline-but-still-want-to-finish-ha-or-make-a-review).*
 
-To make it more fun, every home assignment may have several variants. You'll have a random one. Of course, you can solve as many variants as you want, but without review assurance.
-
-There also can be several **facultative homeworks** to train different topics not included to the program. Every completed extra homework will give you extra 0.5 points. 
+To make it more fun, every home assignment may have several variants. You will have a random one. Of course, you can solve as many variants as you want, but without review assurance.
 
 In addition to students' reviews, I will make reviews of some of your code and will check how you do a review.
 
@@ -93,15 +90,15 @@ Your mark for Python course depends on your activity during the process and fina
 
 As it comes from "1-to-5 technique", missed deadlines lead to situations where your code review is not performed and somebody's review is not performed. Sending homework and making a review after deadline is not prohibited, but completely optional for everybody.
 
-To motivate you to respect deadlines, **50% of mark is deadline compliance.**
+To motivate you to respect deadlines, **30% of mark is deadline compliance.**
 
-Weird as it sounds, the quality of your homework doesn't affect your mark. It only affects your understanding of python, your coding skills, your exam preparation, and future achievements. So it's only on your conscience 😉. But to respect the time of those who send and review homework, work won't be rated if completed by less than 50%.
+Weird as it sounds, the quality of your homework doesn't affect your mark. It only affects your understanding of python, your coding skills, your exam preparation, and future achievements. So it's only on your conscience 😉. But to respect the time of those who send and review homework, fictitious work will be rated by a negative number of points.
 
 Workshops are also an important part of our course. During workshops you will receive knowledge which is missed in lectures, you will practice programming, and enjoy live interaction with teachers and other students which is so lacking in online courses. Of course, situations when you can't visit classes may happen. But remember that in that case you are missing part of knowledge and experience.
 
 Also, missed classes and home assignments may give your examiner a hint of what to ask about 😉.
 
-The exam will be held at the end of the course. **50% of mark is your exam result.**
+The exam will be held at the end of the course. **70% of mark is your exam result.**
 
 
 

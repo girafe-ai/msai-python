@@ -10,7 +10,6 @@
 
 ### Mentioned during the course
 - Functional Programming in Python by David Mertz. O'Reilly Media, Inc., 2015
-- Design Patterns: Elements of Reusable Object-Oriented Software 1st Edition, Kindle Edition by Gamma Erich, Helm Richard, Johnson Ralph, Vlissides John
 
 
 ### Tutorials and HOWTOs
@@ -38,11 +37,6 @@
 #### Telegram bots
 - [Telegram bots docs & examples](https://core.telegram.org/bots)
 - [python-telegram-bot package](https://github.com/python-telegram-bot/python-telegram-bot)
-
-#### OOP
-- [Software design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
-- [Software design anti-patterns](https://en.wikipedia.org/wiki/Anti-pattern)
-
 
 ### Alexander Solovyev's choice
 - Fluent Python by Luciano Ramalho O'Reilly Media, Inc. 2015
