@@ -20,7 +20,7 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 ### 🧪 Course plan
 
-[Course plan](/docs/course-plan.md) contains topics divided by weeks. Plan is approximate and being improved during the course.
+[Course plan](https://docs.google.com/spreadsheets/d/1c5XwYjlHEMzss1aDqfOCiQ4AMHENj7TksRL03eszhUk/edit?usp=sharing) contains topics divided by weeks. Plan is approximate and being improved during the course.
 
 
 ### 📚 Literature
@@ -32,5 +32,5 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 | # | Topic | Materials | Home Assignment | HA Deadlines |
 |:-:| ----- |:---------:|:---------------:|:------------:|
-| 01 | OOP Design Patterns | [seminar01](/week01_oop_design_patterns/seminar) | [ha04](https://docs.google.com/forms/d/e/1FAIpQLSeFMMhzQpOTDHps4HOFhntkh0v3BliFRqURkj354rnNWfg2jA/viewform?usp=sf_link) | send - 03.04.2022, review - 10.04.2022 |
-| 02 | OOP Design Patterns | [seminar02](/week02_oop_design_patterns/seminar) | TODO | send - 17.04.2022, review - 24.04.2022 |
+| `01` | OOP Design Patterns | [seminar01](/week01_oop_design_patterns/seminar) | [ha04](https://docs.google.com/forms/d/e/1FAIpQLSeFMMhzQpOTDHps4HOFhntkh0v3BliFRqURkj354rnNWfg2jA/viewform?usp=sf_link) | send - `03.04.2022`, review - `10.04.2022` |
+| `02` | OOP Design Patterns | [seminar02](/week02_oop_design_patterns/seminar) | TODO | send - `17.04.2022`, review - `24.04.2022` |
