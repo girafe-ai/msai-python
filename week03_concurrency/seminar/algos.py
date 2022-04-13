@@ -1,6 +1,11 @@
 from abc import ABC, abstractmethod
 from collections import Counter
 
+from sklearn.datasets import fetch_20newsgroups
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.linear_model import SGDClassifier
+
 example = '''
 In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
 
@@ -18,7 +23,6 @@ with open('popular-words.txt') as popular_words_file:
     POPULAR_WORDS = popular_words_file.read().split('\n')
 
 POPULAR_TAGS = list(set(POPULAR_WORDS) - set(STOP_WORDS_ALIR3Z4))
-print(len(POPULAR_TAGS))
 
 
 class BaseTagger(ABC):
@@ -110,5 +114,32 @@ class FindSpecialWordsTagger(BasePredefinedTagsTagger):
         return result
 
 
+class SGDClassifierTagger(BasePredefinedTagsTagger):
+    default_tags_candidates = ['alt.atheism', 'soc.religion.christian', 'comp.graphics', 'sci.med']
+
+    def __init__(self, tags: list[str] = None):
+        super().__init__(tags=tags or self.default_tags_candidates)
+
+        self.twenty_train = fetch_20newsgroups(subset='train', categories=self.tags, shuffle=True, random_state=42)
+
+        self.count_vect = CountVectorizer()
+        X_train_counts = self.count_vect.fit_transform(self.twenty_train.data)
+
+        self.tfidf_transformer = TfidfTransformer()
+        self.X_train_tfidf = self.tfidf_transformer.fit_transform(X_train_counts)
+
+        self.clf = SGDClassifier(loss='hinge', penalty='l2', alpha=1e-3, random_state=42, max_iter=5, tol=None)
+        self.clf.fit(self.X_train_tfidf, self.twenty_train.target)
+
+    def get_tags(self, texts: list[str]) -> list[list[str]]:
+        X_new_counts = self.count_vect.transform(texts)
+        X_new_tfidf = self.tfidf_transformer.transform(X_new_counts)
+        predicted = self.clf.predict(X_new_tfidf)
+        tags = [[self.twenty_train.target_names[category]] for category in predicted]
+        return tags
+
+
 print(MostFrequentWordsTagger().get_tags([example]))
 print(FindSpecialWordsTagger().get_tags([example]))
+print(SGDClassifierTagger().get_tags([example]))
+print(SGDClassifierTagger().get_tags(['God is love', 'OpenGL on the GPU is fast']))
