@@ -9,8 +9,16 @@ Object-oriented design patterns typically show relationships and interactions be
 Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of a programming paradigm and a concrete algorithm.
 '''
 
+# https://github.com/igorbrigadir/stopwords/blob/master/en/alir3z4.txt
 with open('stopwords.txt') as stop_words_file:
     STOP_WORDS_ALIR3Z4 = stop_words_file.read().split('\n')
+
+# https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-no-swears.txt
+with open('popular-words.txt') as popular_words_file:
+    POPULAR_WORDS = popular_words_file.read().split('\n')
+
+POPULAR_TAGS = list(set(POPULAR_WORDS) - set(STOP_WORDS_ALIR3Z4))
+print(len(POPULAR_TAGS))
 
 
 class BaseTagger(ABC):
@@ -70,15 +78,29 @@ class MostFrequentWordsTagger(BaseTagger):
 
 
 class FindSpecialWordsTagger(BasePredefinedTagsTagger):
-    default_tags_candidates = STOP_WORDS_ALIR3Z4
+    default_tags_candidates = POPULAR_TAGS
+    words_alphabet = 'abcdefghijklmnopqrstuvwxyz-\''
 
     def __init__(self, tags: list[str] = None, max_tags_per_text: int = 5):
         super().__init__(tags=tags or self.default_tags_candidates)
         self.max_tags_per_text = max_tags_per_text
 
     def get_tags_from_text(self, text: str) -> list[str]:
-        tags = []  # TODO
-        return tags[:self.max_tags_per_text]
+        text = ''.join(
+            (c if c in self.words_alphabet else ' ')
+            for c in text.lower()
+        )
+        words = text.split()
+        words = [word for word in words if len(word) > 2]
+
+        found_tags = []
+        for tag in self.tags:
+            found_tags.append((tag, words.count(tag)))
+
+        found_tags.sort(key=lambda o: o[1], reverse=True)
+        found_tags = found_tags[:self.max_tags_per_text]
+
+        return [tag for tag, count in found_tags]
 
     def get_tags(self, texts: list[str]) -> list[list[str]]:
         result = []
@@ -89,3 +111,4 @@ class FindSpecialWordsTagger(BasePredefinedTagsTagger):
 
 
 print(MostFrequentWordsTagger().get_tags([example]))
+print(FindSpecialWordsTagger().get_tags([example]))
