@@ -59,7 +59,7 @@ class MostFrequentWordsTagger(BaseTagger):
 
         words_counter = Counter(words)
 
-        # TODO improve
+        # TODO improve heuristics
         tags = []
         result = words_counter.most_common()
         if len(result) == 0:
@@ -82,6 +82,8 @@ class MostFrequentWordsTagger(BaseTagger):
 
 
 class FindSpecialWordsTagger(BasePredefinedTagsTagger):
+    # TODO use design patterns to eliminate duplicated code
+
     default_tags_candidates = POPULAR_TAGS
     words_alphabet = 'abcdefghijklmnopqrstuvwxyz-\''
 
@@ -118,6 +120,8 @@ class SGDClassifierTagger(BasePredefinedTagsTagger):
     default_tags_candidates = ['alt.atheism', 'soc.religion.christian', 'comp.graphics', 'sci.med']
 
     def __init__(self, tags: list[str] = None):
+        # TODO load weights only, don't train classifier here
+
         super().__init__(tags=tags or self.default_tags_candidates)
 
         self.twenty_train = fetch_20newsgroups(subset='train', categories=self.tags, shuffle=True, random_state=42)
@@ -134,6 +138,7 @@ class SGDClassifierTagger(BasePredefinedTagsTagger):
     def get_tags(self, texts: list[str]) -> list[list[str]]:
         X_new_counts = self.count_vect.transform(texts)
         X_new_tfidf = self.tfidf_transformer.transform(X_new_counts)
+        # TODO predict probability and filter by threshold
         predicted = self.clf.predict(X_new_tfidf)
         tags = [[self.twenty_train.target_names[category]] for category in predicted]
         return tags
