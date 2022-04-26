@@ -33,6 +33,6 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | # | Topic | Materials | Home Assignment | Sending / Review Deadlines |
 |:-:| ----- |:---------:|:---------------:|:--------------------------:|
 | `01` | OOP Design Patterns | [seminar01](/week01_oop_design_patterns/seminar) | [ha04](https://docs.google.com/forms/d/e/1FAIpQLSeFMMhzQpOTDHps4HOFhntkh0v3BliFRqURkj354rnNWfg2jA/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1kEhRI-WwldG-0Iwpzc4kiT-DPNC609Uc0EalA4KmV5o/edit?usp=sharing) | `03.04.2022 / 10.04.2022` |
-| `02` | OOP Design Patterns | [seminar02](/week02_oop_design_patterns/seminar) | [ha05](https://docs.google.com/forms/d/e/1FAIpQLSfPWPvN9tXwobPUVL1d7tuFS_0g1TyBzzVXGa-Hs4EDhyl1Fw/viewform?usp=sf_link) | `24.04.2022 / 04.05.2022` |
+| `02` | OOP Design Patterns | [seminar02](/week02_oop_design_patterns/seminar) | [ha05](https://docs.google.com/forms/d/e/1FAIpQLSfPWPvN9tXwobPUVL1d7tuFS_0g1TyBzzVXGa-Hs4EDhyl1Fw/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1eYIiT_0ll0WjohpwAOgyJsQFH604Xbu7VIB7tjSYxL8/edit?usp=sharing) | `24.04.2022 / 04.05.2022` |
 | `03` | Taggers implementation | [seminar03](/week03_taggers_implementation/seminar) | TODO | TODO |
 | `04` | OOP, metaclasses | [lecture01](/week04_oop_metaclasses/lecture) | TODO | TODO |
