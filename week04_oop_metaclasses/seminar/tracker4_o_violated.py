@@ -1,5 +1,11 @@
+"""
+Let's have to types of output for printing - to console or to file.
+
+Here is implementation that violates Open-close principle (what if you want to add 3rd output?).
+"""
+
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 
 
@@ -7,10 +13,7 @@ from datetime import datetime
 class Log:
     lat: float
     lon: float
-    timestamp: float = None
-
-    def __post_init__(self):
-        self.timestamp = self.timestamp or time.time()
+    timestamp: float = field(default_factory=time.time)
 
 
 class Printer:

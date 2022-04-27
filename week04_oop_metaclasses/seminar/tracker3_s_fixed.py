@@ -1,5 +1,9 @@
+"""
+Now Tracker and Printer are separate classes for separate tasks.
+"""
+
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 
 
@@ -7,10 +11,7 @@ from datetime import datetime
 class Log:
     lat: float
     lon: float
-    timestamp: float = None
-
-    def __post_init__(self):
-        self.timestamp = self.timestamp or time.time()
+    timestamp: float = field(default_factory=time.time)
 
 
 class Printer:

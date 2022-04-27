@@ -1,5 +1,12 @@
+"""
+Single Responsibility violated - Tracker responsible for db storing and for writing.
+
+DB can be replaced with SQL DB. Writer can be replaced with file writer or change formatting.
+These are 2 reasons for change.
+"""
+
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 
 
@@ -7,10 +14,7 @@ from datetime import datetime
 class Log:
     lat: float
     lon: float
-    timestamp: float = None
-
-    def __post_init__(self):
-        self.timestamp = self.timestamp or time.time()
+    timestamp: float = field(default_factory=time.time)
 
 
 class Tracker:
