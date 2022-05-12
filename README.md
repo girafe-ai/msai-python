@@ -38,3 +38,4 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | `04` | OOP, metaclasses | [lecture01](/week04_oop_metaclasses/lecture) [seminar04](/week04_oop_metaclasses/seminar) | [ha06](https://docs.google.com/forms/d/e/1FAIpQLSdOdeK6rgLjJh5Rmin0Wf0nezO_eRKhGfw3e_d-mz4--LTW2A/viewform?usp=sf_link) | `08.05.2022 / 15.05.2022` |
 | `05` | Threading, multiprocessing | [seminar05](/week05_threading_multiprocessing/seminar) | [extra-ha02](https://docs.google.com/forms/d/e/1FAIpQLSd1uTShczbK19dLlUUZtWwKU2CYCRJbwp1Q5w8-6w1SNDGUtg/viewform?usp=sf_link) | `22.05.2022 / 29.05.2022` |
 | `06` | Synchronization primitives, asyncio | [seminar06](/week06_sync_primitives_asyncio/seminar) | TODO | TODO |
+| `07` | Sync and Async web frameworks | [seminar07](/week07_sync_async_web_frameworks/seminar) | TODO | TODO |
