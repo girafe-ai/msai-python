@@ -39,3 +39,4 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | `05` | Threading, multiprocessing | [seminar05](/week05_threading_multiprocessing/seminar) | [extra-ha02](https://docs.google.com/forms/d/e/1FAIpQLSd1uTShczbK19dLlUUZtWwKU2CYCRJbwp1Q5w8-6w1SNDGUtg/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1UXqvM1aWIm2LvCu4LqoyjLKwZiFLakNzbvPgqBb77kc/edit?usp=sharing) | `22.05.2022 / 30.05.2022` |
 | `06` | Synchronization primitives, asyncio | [seminar06](/week06_sync_primitives_asyncio/seminar) | TODO | TODO |
 | `07` | Sync and Async web frameworks | [seminar07](/week07_sync_async_web_frameworks/seminar) | TODO | TODO |
+| `08` | Databases | [lecture02](/week08_databases/lecture) [seminar08](https://colab.research.google.com/drive/1OYY3OTEAZseV80jxNR_H5bq1v4Q5V2cM?usp=sharing) | TODO | TODO |
