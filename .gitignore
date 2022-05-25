@@ -138,3 +138,5 @@ dmypy.json
 cython_debug/
 
 .idea/
+catboost_info
+*.pik
