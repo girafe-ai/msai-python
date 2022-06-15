@@ -5,7 +5,10 @@ import nltk
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from .base import extract_words, BaseTagger, BaseSeparateTagger, STOP_WORDS_ALIR3Z4
+from .base import BaseSeparateTagger
+from .base import BaseTagger
+from .base import extract_words
+from .base import STOP_WORDS_ALIR3Z4
 
 # nltk.download()  1st time
 
@@ -19,7 +22,10 @@ class MostFrequentWordsTagger(BaseSeparateTagger):
         self.max_tags_per_text = max_tags_per_text
 
     def get_tags_from_text(self, text: str) -> list[str]:
-        words = extract_words(text, alphabet=self.words_alphabet, min_length=3, stop_words=self.stop_words)
+        words = extract_words(
+            text, alphabet=self.words_alphabet,
+            min_length=3, stop_words=self.stop_words,
+        )
         words_counter = Counter(words)
 
         # TODO improve heuristics
@@ -44,22 +50,36 @@ class PartOfSpeechTagger(BaseSeparateTagger):
     def get_tags_from_text(self, text: str) -> list[str]:
         tkns = nltk.word_tokenize(text)
         part_of_speech = nltk.pos_tag(tkns)
-        main_words = [w[0] for w in part_of_speech if
-                      w[1] in ['NN', 'JJ']]  # we will use only Nouns (NN) and Adjective (JJ)
+        main_words = [
+            w[0] for w in part_of_speech if
+            w[1] in ['NN', 'JJ']
+        ]  # we will use only Nouns (NN) and Adjective (JJ)
         main_words = [n for n in main_words if len(n) > 3]
 
-        main_words = [word for word in main_words if word not in STOP_WORDS_ALIR3Z4]
+        main_words = [
+            word for word in main_words if word not in STOP_WORDS_ALIR3Z4
+        ]
 
-        number_of_tags = min(4, round(len(main_words) * 0.2))  # get 4 tags or less, if we have short sentences
+        # get 4 tags or less, if we have short sentences
+        number_of_tags = min(4, round(len(main_words) * 0.2))
 
         vocabl = set(main_words)
-        frequency = sorted([(main_words.count(i), i) for i in vocabl], reverse=True)
+        frequency = sorted(
+            (
+                (main_words.count(i), i)
+                for i in vocabl
+            ), reverse=True,
+        )
 
         return [tg[1] for tg in frequency[:number_of_tags]]
 
 
 class TfidfTagger(BaseTagger):
-    default_stop_words = set(nltk.corpus.stopwords.words('english') + list(string.punctuation))
+    default_stop_words = set(
+        nltk.corpus.stopwords.words(
+            'english',
+        ) + list(string.punctuation),
+    )
 
     def __init__(self, stop_words: list = None, max_tags_per_text: int = 5):
         super().__init__()
@@ -68,10 +88,16 @@ class TfidfTagger(BaseTagger):
         self.vectorizer = TfidfVectorizer()
         self.corpus_vectorized = None
 
-    def get_tags(self, texts: list[str], k: int = 5,
-                 thr: float = 0.8, min_tag_len: int = 4) -> list[list[str]]:
-        new_corpus = [' '.join([w for w in nltk.tokenize.word_tokenize(text.lower())
-                                if w not in self.stop_words]) for text in texts]
+    def get_tags(
+        self, texts: list[str], k: int = 5,
+        thr: float = 0.8, min_tag_len: int = 4,
+    ) -> list[list[str]]:
+        new_corpus = [
+            ' '.join([
+                w for w in nltk.tokenize.word_tokenize(text.lower())
+                if w not in self.stop_words
+            ]) for text in texts
+        ]
         if not new_corpus:
             return []
 

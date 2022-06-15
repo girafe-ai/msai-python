@@ -1,8 +1,5 @@
 """Peewee migrations."""
-
-import datetime as dt
 import peewee as pw
-from playhouse.postgres_ext import JSONField
 
 
 def migrate(migrator, database, **kwargs):
@@ -26,7 +23,7 @@ def migrate(migrator, database, **kwargs):
     """
     migrator.add_fields(
         'user',
-        active=pw.BooleanField(default=True)
+        active=pw.BooleanField(default=True),
     )
 
 

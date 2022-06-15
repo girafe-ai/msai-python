@@ -2,8 +2,10 @@ import random
 
 import aiohttp
 from aiohttp import web
-
-from models import manager, User, Query, migrate
+from models import manager
+from models import migrate
+from models import Query
+from models import User
 
 TEXTS_LIMIT_PER_REQUEST = 10
 TEXT_MAX_LENGTH = 1000
@@ -55,7 +57,7 @@ async def route_request(request_body: dict) -> (int, dict):
 
         try:
             response_data = await response.json()
-        except:
+        except Exception:
             return 500, {'error': 'Internal error'}
         else:
             return response.status, response_data
@@ -112,7 +114,7 @@ def make_app():
 
     app = web.Application()
     app.add_routes([
-        web.post('/tagging', handle_tagging)
+        web.post('/tagging', handle_tagging),
     ])
 
     return app

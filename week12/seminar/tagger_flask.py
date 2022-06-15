@@ -1,22 +1,21 @@
 import os
 
-from flask import Flask, request
-
-from taggers import (
-    FindSpecialWordsTagger,
-    MostFrequentWordsTagger, PartOfSpeechTagger,
-    SGDClassifierTagger
-)
+from flask import Flask
+from flask import request
+from taggers import FindSpecialWordsTagger
+from taggers import MostFrequentWordsTagger
+from taggers import PartOfSpeechTagger
+from taggers import SGDClassifierTagger
 
 app = Flask(__name__)
 tagger_objects = [
     FindSpecialWordsTagger(),
     MostFrequentWordsTagger(), PartOfSpeechTagger(),
-    SGDClassifierTagger()
+    SGDClassifierTagger(),
 ]
 
 
-@app.route("/internal/tagging", methods=['POST'])
+@app.route('/internal/tagging', methods=['POST'])
 def tagging():
     texts = request.json['texts']
     tags = [set() for _ in texts]  # [{text1-tag1, text1-tag2, ...}, ...]
@@ -28,7 +27,7 @@ def tagging():
 
     tags = [list(text_tags_set) for text_tags_set in tags]
     return {
-        'tags': tags
+        'tags': tags,
     }
 
 

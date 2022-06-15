@@ -1,4 +1,5 @@
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
 
 
 # https://github.com/igorbrigadir/stopwords/blob/master/en/alir3z4.txt

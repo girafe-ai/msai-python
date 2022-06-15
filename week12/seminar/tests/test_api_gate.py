@@ -1,13 +1,15 @@
-from unittest.mock import patch, Mock
+from unittest.mock import Mock
+from unittest.mock import patch
 
 import pytest
-from models import User, manager
+from models import manager
+from models import User
 
 FAKE_DATA = {
-    "tags": [
-        ["text1-tag1", "text1-tag2"],
-        ["text2-tag1", "text2-tag2"],
-    ]
+    'tags': [
+        ['text1-tag1', 'text1-tag2'],
+        ['text2-tag1', 'text2-tag2'],
+    ],
 }
 
 
@@ -36,7 +38,7 @@ async def test_ok(gate_client):
 
     with patch('aiohttp.ClientSession') as ClientSessionMock:
         ClientSessionMock.return_value = MockSession()
-        response = await gate_client.post("/tagging?api_key=e721y87e30", json={'texts': ['text']})
+        response = await gate_client.post('/tagging?api_key=e721y87e30', json={'texts': ['text']})
 
     assert response.status == 200
     data = await response.json()
@@ -45,14 +47,14 @@ async def test_ok(gate_client):
 
 @pytest.mark.parametrize(
     'api_key_url_part',
-    ['', '?api_key=']  # , '?api_key=123'
+    ['', '?api_key='],  # , '?api_key=123'
 )
 async def test_bad_api_key(gate_client, api_key_url_part):
     with patch('aiohttp.ClientSession') as ClientSessionMock:
         ClientSessionMock.return_value = MockSession()
         response = await gate_client.post(
-            "/tagging" + api_key_url_part,
-            json={'texts': ['text']}
+            '/tagging' + api_key_url_part,
+            json={'texts': ['text']},
         )
 
     assert response.status == 403

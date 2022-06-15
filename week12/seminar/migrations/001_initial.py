@@ -1,6 +1,6 @@
 """Peewee migrations."""
-
 import datetime as dt
+
 import peewee as pw
 from playhouse.postgres_ext import JSONField
 

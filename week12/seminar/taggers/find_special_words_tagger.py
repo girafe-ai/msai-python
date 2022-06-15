@@ -1,4 +1,7 @@
-from .base import extract_words, BaseSeparateTagger, BaseChoiceTagger, POPULAR_TAGS
+from .base import BaseChoiceTagger
+from .base import BaseSeparateTagger
+from .base import extract_words
+from .base import POPULAR_TAGS
 
 
 class FindSpecialWordsTagger(BaseSeparateTagger, BaseChoiceTagger):

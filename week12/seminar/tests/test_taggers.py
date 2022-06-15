@@ -1,16 +1,13 @@
 import pytest
-
-from taggers import (
-    CatBoostClassifierTagger,
-    FindSpecialWordsTagger,
-    MostFrequentWordsTagger, PartOfSpeechTagger, TfidfTagger,
-    SGDClassifierTagger, SGDClassifierTestTagger
-)
+from taggers import FindSpecialWordsTagger
+from taggers import MostFrequentWordsTagger
+from taggers import PartOfSpeechTagger
+from taggers import SGDClassifierTagger
 from tests.texts_for_test import test_texts
 
 
 @pytest.mark.parametrize(
-    "texts",
+    'texts',
     [
         [],
         ['text'],
@@ -20,7 +17,7 @@ from tests.texts_for_test import test_texts
     ],
 )
 @pytest.mark.parametrize(
-    "tagger",
+    'tagger',
     [
         MostFrequentWordsTagger(),
         PartOfSpeechTagger(),

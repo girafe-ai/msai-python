@@ -1,11 +1,13 @@
 import unittest
 
-from taggers import (
-    CatBoostClassifierTagger,
-    FindSpecialWordsTagger,
-    MostFrequentWordsTagger, PartOfSpeechTagger, TfidfTagger,
-    SGDClassifierTagger, SGDClassifierTestTagger
-)
+from taggers import CatBoostClassifierTagger
+from taggers import FindSpecialWordsTagger
+from taggers import MostFrequentWordsTagger
+from taggers import PartOfSpeechTagger
+from taggers import SGDClassifierTagger
+from taggers import SGDClassifierTestTagger
+from taggers import TfidfTagger
+
 from .texts_for_test import test_texts
 
 
@@ -20,8 +22,8 @@ class TestStringMethods(unittest.TestCase):
                 ['healthy'],
                 ['missions', 'launch'],
                 ['sell', 'floppy', 'disks'],
-                ['god']
-            ]
+                ['god'],
+            ],
         )
 
     def test_part_of_speech_tagger(self):
@@ -33,8 +35,8 @@ class TestStringMethods(unittest.TestCase):
                 ['healthy', 'lifestyle', 'life', 'person'],
                 ['space', 'rocket', 'launch', 'tourist-focused'],
                 [],
-                []
-            ]
+                [],
+            ],
         )
 
     def test_tfidf_tagger(self):
@@ -46,8 +48,8 @@ class TestStringMethods(unittest.TestCase):
                 ['healthy'],
                 ['launch', 'missions'],
                 ['disks', 'floppy', 'sell'],
-                []
-            ]
+                [],
+            ],
         )
 
     def test_find_special_words_tagger(self):
@@ -73,8 +75,8 @@ class TestStringMethods(unittest.TestCase):
                 ['sci.med', 'talk.religion.misc'],
                 ['sci.space'],
                 ['misc.forsale', 'comp.sys.ibm.pc.hardware'],
-                ['soc.religion.christian']
-            ]
+                ['soc.religion.christian'],
+            ],
         )
 
     @unittest.skip
