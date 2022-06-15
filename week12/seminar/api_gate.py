@@ -1,3 +1,4 @@
+import logging.config
 import random
 
 import aiohttp
@@ -6,6 +7,48 @@ from models import manager
 from models import migrate
 from models import Query
 from models import User
+
+LOGGING_CONFIG = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        'standard': {
+            'format': '%(asctime)s [%(levelname)s] [%(module)s - %(funcName)s - %(lineno)d] %(name)s: %(message)s',
+        },
+    },
+    'handlers': {
+        'default': {
+            'level': 'INFO',
+            'formatter': 'standard',
+            'class': 'logging.StreamHandler',
+            'stream': 'ext://sys.stdout',  # Default is stderr
+        },
+        'rotating_file_handler': {
+            'level': 'INFO',
+            'formatter': 'standard',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'info.log',
+            'mode': 'a',
+            'maxBytes': 1048576,
+            'backupCount': 10,
+        },
+    },
+    'loggers': {
+        '': {  # root logger
+            'handlers': ['default', 'rotating_file_handler'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+        'aiohttp': {
+            'handlers': ['default', 'rotating_file_handler'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+    },
+}
+logging.config.dictConfig(LOGGING_CONFIG)
+
+log = logging.getLogger(__name__)
 
 TEXTS_LIMIT_PER_REQUEST = 10
 TEXT_MAX_LENGTH = 1000
@@ -53,11 +96,13 @@ async def route_request(request_body: dict) -> (int, dict):
             if response.status < 500:
                 break
         else:
+            log.error('workers are unavailable')
             return 500, {'error': 'Internal error'}
 
         try:
             response_data = await response.json()
         except Exception:
+            log.error('unexpected response from worker')
             return 500, {'error': 'Internal error'}
         else:
             return response.status, response_data
@@ -93,12 +138,15 @@ async def handle_tagging(request: web.Request):
         ]
     }
     """
+    log.info(f'new query: {request.url}')
+
     user, error_text = await validate_api_key(request)
     if error_text is not None:
         return web.json_response(status=403, data={'error': error_text})
 
     try:
         request_body = await request.json()
+        log.debug(request_body)
     except Exception:
         return web.json_response(status=400, data={'error': 'Expected JSON body'})
     if not is_valid_request(request_body):
@@ -106,6 +154,7 @@ async def handle_tagging(request: web.Request):
 
     status, response = await route_request(request_body)
     await manager.create(Query, user=user, request=request_body, response=response)
+    log.info(f'response: {status}')
     return web.json_response(status=status, data=response)
 
 
