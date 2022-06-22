@@ -22,6 +22,8 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 [Course plan](https://docs.google.com/spreadsheets/d/1c5XwYjlHEMzss1aDqfOCiQ4AMHENj7TksRL03eszhUk/edit?usp=sharing) contains topics divided by weeks. Plan is approximate and being improved during the course.
 
+[Exam topics](/docs/exam-topics.md) for the course.
+
 
 ### 📚 Literature
 
