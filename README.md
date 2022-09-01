@@ -1,4 +1,4 @@
-## MSAI Software Development & Python — Spring 2022, MIPT
+## MSAI Software Development & Python — Spring 2022
 
 ### ⭐ Annotation
 
