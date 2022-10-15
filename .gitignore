@@ -140,3 +140,5 @@ cython_debug/
 .idea/
 catboost_info
 *.pik
+
+.DS_Store

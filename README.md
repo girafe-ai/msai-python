@@ -1,48 +1,37 @@
-## MSAI Software Development & Python — Spring 2022
+# MSAI Software Development & Python — Fall 2022
 
-### ⭐ Annotation
+## ⭐ Annotation
 
-This course focuses on the fundamentals of software engineering. Proper design is an important part of any project.
-This course covers the basics of the Python programming language, basic concepts and language constructs.
+This one-year course focuses on the basics of software development. Proper design is an important part of any project.
+The first semester covers the basics of the Python programming language, basic concepts and language constructs, while the second semester focuses on software development.
 Along with this, this course provides tools for using Python programming language in complex projects.
 You will gain insight into the correct design of the code, maintaining the codebase and integrating your applications with others.
 
 
-### 📜 Course instructions
+## 📜 Course instructions
 
 - [Communication](/docs/course-instructions.md#communication)
 - [Homework](/docs/course-instructions.md#homework)
-- [Marks, missed deadlines and non-attendance](/docs/course-instructions.md#marks-missed-deadlines-and-non-attendance)
+- [Marks, missed deadlines and non-attendance](/docs/course-instructions.md#marks-non-attendance-and-missed-deadlines)
 - [Superstars](/docs/course-instructions.md#superstars)
-- [Organize your homework](/docs/organize-your-homework.md)
-- [Code review tips](/docs/code-review-tips.md)
 
 
-### 🧪 Course plan
+## 🧪 Course plan
 
-[Course plan](https://docs.google.com/spreadsheets/d/1c5XwYjlHEMzss1aDqfOCiQ4AMHENj7TksRL03eszhUk/edit?usp=sharing) contains topics divided by weeks. Plan is approximate and being improved during the course.
+[Course plan](docs/course-plan.md) contains topics divided by weeks. Plan is approximate and being improved during the course.
 
-[Exam topics](/docs/exam-topics.md) for the course.
-
-
-### 📚 Literature
-
-[Literature](/docs/literature.md): books, articles and instruments useful for Python learning. Your suggestions for this page are appreciated.
+[Past year 1st semestr exam topics](/docs/past-year-exam-topics-1.md) for the course.
 
 
-### 🎞 Content
+## 📚 Helpful scources
 
-| # | Topic | Materials | Home Assignment | Sending / Review Deadlines |
+[Helpful scources](/docs/helpful-links-and-literature.md): books, articles and instruments useful for Python learning. Your suggestions for this page are appreciated.
+
+
+## 🎞 Content
+
+| # | Topic | Materials | Home Assignment | Soft/Hard Deadlines |
 |:-:| ----- |:---------:|:---------------:|:--------------------------:|
-| `01` | OOP Design Patterns | [seminar01](/week01_oop_design_patterns/seminar) | [ha04](https://docs.google.com/forms/d/e/1FAIpQLSeFMMhzQpOTDHps4HOFhntkh0v3BliFRqURkj354rnNWfg2jA/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1kEhRI-WwldG-0Iwpzc4kiT-DPNC609Uc0EalA4KmV5o/edit?usp=sharing) | `03.04.2022 / 10.04.2022` |
-| `02` | OOP Design Patterns | [seminar02](/week02_oop_design_patterns/seminar) | [ha05](https://docs.google.com/forms/d/e/1FAIpQLSfPWPvN9tXwobPUVL1d7tuFS_0g1TyBzzVXGa-Hs4EDhyl1Fw/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1eYIiT_0ll0WjohpwAOgyJsQFH604Xbu7VIB7tjSYxL8/edit?usp=sharing) | `24.04.2022 / 03.05.2022` |
-| `03` | Taggers implementation | [seminar03](/week03_taggers_implementation/seminar) | [extra-ha01](https://docs.google.com/forms/d/e/1FAIpQLScDiTLFqaT3WUUaXN5ow8PQ5oHYEl9hNSD7ogq4O5MDNxtA9A/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1dcA3sNqvqnibyE8W_xe2-l-Vn2OFsqF4oTnXWAaP3NA/edit?usp=sharing) | `15.05.2022 / 22.05.2022` |
-| `04` | OOP, metaclasses | [lecture01](/week04_oop_metaclasses/lecture) [seminar04](/week04_oop_metaclasses/seminar) | [ha06](https://docs.google.com/forms/d/e/1FAIpQLSdOdeK6rgLjJh5Rmin0Wf0nezO_eRKhGfw3e_d-mz4--LTW2A/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1QkCTxsUp0gL_24GKuJF6-Du2jJrbpG29miZaQ4a_m5k/edit?usp=sharing) | `08.05.2022 / 15.05.2022` |
-| `05` | Threading, multiprocessing | [seminar05](/week05_threading_multiprocessing/seminar) | [extra-ha02](https://docs.google.com/forms/d/e/1FAIpQLSd1uTShczbK19dLlUUZtWwKU2CYCRJbwp1Q5w8-6w1SNDGUtg/viewform?usp=sf_link) / [review](https://docs.google.com/spreadsheets/d/1UXqvM1aWIm2LvCu4LqoyjLKwZiFLakNzbvPgqBb77kc/edit?usp=sharing) | `22.05.2022 / 30.05.2022` |
-| `06` | Synchronization primitives, asyncio | [seminar06](/week06_sync_primitives_asyncio/seminar) | [extra-ha03](https://docs.google.com/forms/d/e/1FAIpQLSffBsaAXUszr8reJFoIi-NS31FXK56GX3f15iZk3dAWZCjJ-Q/viewform?usp=sf_link) / [answers](https://docs.google.com/spreadsheets/d/134Sy5YRYYQkV-SEn9Sm_m2hX8faAKw43dNXPPDvVAzQ/edit?usp=sharing) | `02.07.2022 / no review required` |
-| `07` | Sync and Async web frameworks | [seminar07](/week07_sync_async_web_frameworks/seminar) | [extra-ha04](https://docs.google.com/forms/d/e/1FAIpQLSeD6osRa8PQvSupAVE1sIsB5Ju4aPqwdZWxWyvJhQDb9B94AQ/viewform?usp=sf_link) / [answers](https://docs.google.com/spreadsheets/d/1QVcF3NQ7jYrLzOHKK7qkVkfCMd4rqBAU8OyAZKxjeHg/edit?usp=sharing) | `02.07.2022 / no review required` |
-| `08` | Databases | [lecture02](/week08_databases/lecture) [seminar08](https://colab.research.google.com/drive/1OYY3OTEAZseV80jxNR_H5bq1v4Q5V2cM?usp=sharing) | [extra-ha05](https://docs.google.com/forms/d/e/1FAIpQLSclbIdJWb731re2QItUhZeAjREjy__2awttRfVckhUEXmKPLQ/viewform?usp=sf_link) / [answers](https://docs.google.com/spreadsheets/d/1YEffOqNk0Ow6h86O4g1pIPlfYr50sr_qV48hpb5Wq80/edit?usp=sharing) | `02.07.2022 / no review required` |
-| `09` | Unit tests, more taggers | [seminar09](/week09_unittest_good_taggers/seminar) | - | - |
-| `10` | pytest, web app tests | [seminar10](/week10_pytest_web_app_tests/seminar) | - | - |
-| `11` | ORM usage, migrations, requirements | [seminar11](/week11_orm_migrations_requirements/seminar) | - | - |
-| `12` | linters, logging | [seminar12](/week12_linters_logging/seminar) | - | - |
+| `01` | Python first touch | [webinar01](/webinar01) | snakify.com odd problems 1, 2, 5 topics | `23:59 14.10.2022 / 04.11.2022` |
+| `02` | Built-in Data Structures | [webinar02](/webinar02) | snakify.com odd problems 3, 4, 6 topics | `23:59 17.10.2022 / 04.11.2022` |
+| `03` | Conditions, loops and functions | [webinar03](/webinar03) | snakify.com odd problems 7 - 11 topics | `23:59 21.10.2022 / 04.11.2022` |
