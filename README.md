@@ -4,7 +4,7 @@
 
 This one-year course focuses on the basics of software development. Proper design is an important part of any project.
 The first semester covers the basics of the Python programming language, basic concepts and language constructs, while the second semester focuses on software development.
-Along with this, this course provides tools for using Python programming language in complex projects.
+Along with this, the course provides tools for using Python programming language in complex projects.
 You will gain insight into the correct design of the code, maintaining the codebase and integrating your applications with others.
 
 

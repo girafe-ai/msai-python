@@ -142,3 +142,6 @@ catboost_info
 *.pik
 
 .DS_Store
+
+.pre-commit-config.yaml
+.gitignore
