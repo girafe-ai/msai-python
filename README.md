@@ -33,5 +33,5 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | # | Topic | Materials | Home Assignment | Soft/Hard Deadlines |
 |:-:| ----- |:---------:|:---------------:|:--------------------------:|
 | `01` | Python first touch | [webinar01](/webinar01) | snakify.com odd problems 1, 2, 5 topics | `23:59 14.10.2022 / 04.11.2022` |
-| `02` | Built-in Data Structures | [webinar02](/webinar02) | snakify.com odd problems 3, 4, 6 topics | `23:59 17.10.2022 / 04.11.2022` |
+| `02` | Built-in Data Structures | [webinar02](/webinar02) | snakify.com odd problems 3, 4, 6 topics, install python locally | `23:59 17.10.2022 / 04.11.2022` |
 | `03` | Conditions, loops and functions | [webinar03](/webinar03) | snakify.com odd problems 7 - 11 topics | `23:59 21.10.2022 / 04.11.2022` |

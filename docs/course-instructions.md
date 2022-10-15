@@ -25,7 +25,7 @@ You are free to spread gossip, to laugh at teachers, and to ask each other the s
 Most importantly, you can help each other, share links to any materials that helped you, etc.
 
 
-### Chat for students and teachers (look for invite link in course chat)
+### Chat for students and teachers
 
 This is our official community.
 
@@ -82,12 +82,14 @@ Webinars are also an important part of our course. During webinars you will rece
 
 Also, missed webinars and home assignments may give your examiner a hint of what to ask about 😉.
 
-???The exam will be held at the end of the course
+The exam will be held at the end of the course.
+
+Information about exam projects will appear later.
 
 
 ### Deadlines
 
-Everything is very simple here: after **soft** deadline your points for activity multiplied by $0.5$ and $0.1$ after **hard** deadline???
+Everything is very simple here: after **soft** deadline your points for activity multiplied by $0.5$ and $0.0$ after **hard** deadline
 
 
 
