@@ -12,7 +12,7 @@
 To respect each other and each other's time, we will use:
 
 - $3$ chats to learn python: for students only, for students and teachers and memes chat
-- [Anonymous form] add link
+- [Anonymous form] the link will be here
 - Questions time before classes
 
 
