@@ -18,9 +18,9 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 ## 🧪 Course plan
 
-[Course plan](docs/course-plan.md) contains topics divided by weeks. Plan is approximate and being improved during the course.
+[Course plan](docs/course-plan.md) contains topics divided by webinars. Plan is approximate and being improved during the course.
 
-[Past year 1st semestr exam topics](/docs/past-year-exam-topics-1.md) for the course.
+[Past year 1st semester exam topics](/docs/past-year-exam-topics-1.md) for the course.
 
 
 ## 📚 Helpful scources
@@ -30,8 +30,10 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 ## 🎞 Content
 
-| # | Topic | Materials | Home Assignment | Soft/Hard Deadlines |
-|:-:| ----- |:---------:|:---------------:|:--------------------------:|
-| `01` | Python first touch | [webinar01](/webinar01) | snakify.com odd problems 1, 2, 5 topics | `23:59 14.10.2022 / 04.11.2022` |
-| `02` | Built-in Data Structures | [webinar02](/webinar02) | snakify.com odd problems 3, 4, 6 topics, install python locally | `23:59 17.10.2022 / 04.11.2022` |
-| `03` | Conditions, loops and functions | [webinar03](/webinar03) | snakify.com odd problems 7 - 11 topics | `23:59 21.10.2022 / 04.11.2022` |
+| # | Topic | Date | Materials | Home Assignment | Soft/Hard Deadlines |
+|:-:| ----- |:----:|:---------:|:---------------:|:--------------------------:|
+| `01` | Python first touch | 08.10.22 | [webinar01](/webinar01) | snakify.com odd problems 1, 2, 5 topics | `23:59 17.10.2022 / 04.11.2022` |
+| `02` | Built-in Data Structures | 11.10.22 | [webinar02](/webinar02) | snakify.com odd problems 3, 4, 6 topics, install python locally | `23:59 17.10.2022 / 04.11.2022` |
+| `03` | Conditions, loops and functions | 15.10.22 | [webinar03](/webinar03) | snakify.com odd problems 7 - 11 topics | `23:59 21.10.2022 / 04.11.2022` |
+| `04` | Classes 1, imports and try statement | 18.10.22 | to be published later | to be published later | `23:59 21.10.2022 / 04.11.2022` |
+| `05` | Midterm | 23.10.22 |  |  | `23:59 23.10.2022 / 04.11.2022` |

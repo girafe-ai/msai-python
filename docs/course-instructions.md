@@ -56,7 +56,7 @@ I will join our classes $10-15$ minutes before the start. If you want, you can a
 
 ## Homework
 
-During the course you will receive $8$ homework assignments: $4$ in intro block and $4$ in main block.
+During the course you will receive $8$ homework assignments: $4$ in intro block and $4$ in main block. Deadline information and links are published [here](/readme.md#content).
 
 
 
@@ -65,7 +65,7 @@ During the course you will receive $8$ homework assignments: $4$ in intro block 
 Your mark for Python course depends on your activity during the process and exam project.
 
 
-### Marks and non-attendance
+#### Marks and non-attendance
 
 Your estimated activities, summed up in the ```total``` variable:
 - warm-up tests x $10$ - $1$ point
@@ -87,10 +87,9 @@ The exam will be held at the end of the course.
 Information about exam projects will appear later.
 
 
-### Deadlines
+#### Deadlines
 
-Everything is very simple here: after **soft** deadline your points for activity multiplied by $0.5$ and $0.0$ after **hard** deadline
-
+Everything is very simple here: after **soft** deadline your points for activity multiplied by $0.5$ and $0.0$ after **hard** deadline.
 
 
 ## Superstars
