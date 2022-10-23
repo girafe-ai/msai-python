@@ -37,3 +37,10 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | `03` | Conditions, loops and functions | 15.10.22 | [webinar03](/webinar03) | snakify.com odd problems 7 - 11 topics | `23:59 22.10.2022 / 04.11.2022` |
 | `04` | Classes 1, imports and try statement | 18.10.22 | [webinar04](/webinar04) | shorturl.at/efgpx | `23:59 22.10.2022 / 04.11.2022` |
 | `05` | Midterm | 23.10.22 |  |  | `23:59 23.10.2022 / 04.11.2022` |
+
+
+## Marks
+
+Your hash for the snakify account mail you can get by ```hashlib.md5(mail.encode()).hexdigest()```
+
+[snakify marks](https://docs.google.com/spreadsheets/d/1NtvNHZDW0rT8F5MGmzevcoVJtKVdihTDM_QnLcSutH0/edit?usp=sharing) after soft deadline (last updated `01:00 25.10.2022`)
