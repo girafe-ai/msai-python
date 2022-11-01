@@ -37,7 +37,7 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | `03` | Conditions, loops and functions | 15.10.22 | [webinar03](/webinar03) | snakify.com odd problems 7 - 11 topics | `23:59 22.10.2022 / 04.11.2022` |
 | `04` | Classes 1, imports and try statement | 18.10.22 | [webinar04](/webinar04) | shorturl.at/efgpx | `23:59 22.10.2022 / 04.11.2022` |
 | `05` | Midterm | 23.10.22 |  |  | `23:59 23.10.2022 / 04.11.2022` |
-| `06` | DS Intensive | 29.10.22 | [webinar05](/webinar05) | https://docs.google.com/forms/d/e/1FAIpQLScGwh0vHRhFAzrWS8ZfQpdoIpOkTyj_y0mqQhfm0W4fMb9QNQ/viewform?usp=sf_link | `23:59 12.11.2022 / 19.11.2022` |
+| `06` | DS Intensive | 29.10.22 | [webinar05](/webinar05) | [DS HA](https://docs.google.com/forms/d/e/1FAIpQLScGwh0vHRhFAzrWS8ZfQpdoIpOkTyj_y0mqQhfm0W4fMb9QNQ/viewform?usp=sf_link) | `23:59 12.11.2022 / 19.11.2022` |
 
 
 ## Marks
