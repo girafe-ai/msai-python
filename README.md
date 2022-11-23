@@ -40,7 +40,7 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | `06` | DS Intensive | 29.10.22 | [webinar05](/webinar05) | [DS HA](https://docs.google.com/forms/d/e/1FAIpQLScGwh0vHRhFAzrWS8ZfQpdoIpOkTyj_y0mqQhfm0W4fMb9QNQ/viewform?usp=sf_link) | `23:59 12.11.2022 / 19.11.2022` |
 | `07` | Magic methods | 05.11.22 | [webinar06](/webinar06) | [HA 6](https://docs.google.com/forms/d/e/1FAIpQLSd3yG85wjbqsc8LTFpbkm3kk8cNOL7ztH107-IjD678vSHYjg/viewform?usp=sf_link) | `23:59 19.11.2022 / 26.11.2022` |
 | `08` | Data | 12.11.22 | [webinar07](/webinar07) | [HA 7](https://docs.google.com/forms/d/e/1FAIpQLSf90paVryBYVW7SGLyhobTAigzfxB0dlcXn4LcCvUCjnjZmUw/viewform?usp=sf_link) | `23:59 26.11.2022 / 03.12.2022` |
-| `09` | Functional programming | 19.11.22 |  |  |  |
+| `09` | Functional programming | 19.11.22 | [webinar08](/webinar08) | [HA 8](https://docs.google.com/forms/d/e/1FAIpQLScDhaJqfTeKziGLWAzv3pGFMAc6qmd919PaXJOn-g6ogZzrWg/viewform) | `23:59 03.12.2022 / 10.12.2022` |
 
 
 
