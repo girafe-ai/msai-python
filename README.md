@@ -47,7 +47,3 @@ You will gain insight into the correct design of the code, maintaining the codeb
 ## Marks
 
 [Link](https://docs.google.com/spreadsheets/d/1ks8hNiL-G2g9hKEE_hr_GUqPpWKaBk5AWsr6bcyKj7Q/edit?usp=sharing) for current results.
-
-Your hash for the snakify account mail you can get by ```hashlib.md5(mail.encode()).hexdigest()```
-
-[snakify marks](https://docs.google.com/spreadsheets/d/1NtvNHZDW0rT8F5MGmzevcoVJtKVdihTDM_QnLcSutH0/edit?usp=sharing) after soft deadline (last updated `01:00 25.10.2022`)
