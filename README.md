@@ -42,6 +42,10 @@ You will gain insight into the correct design of the code, maintaining the codeb
 | `08` | Data | 12.11.22 | [webinar07](/webinar07) | [HA 7](https://docs.google.com/forms/d/e/1FAIpQLSf90paVryBYVW7SGLyhobTAigzfxB0dlcXn4LcCvUCjnjZmUw/viewform?usp=sf_link) | `23:59 26.11.2022 / 03.12.2022` |
 | `09` | Functional programming | 19.11.22 | [webinar08](/webinar08) | [HA 8](https://docs.google.com/forms/d/e/1FAIpQLScDhaJqfTeKziGLWAzv3pGFMAc6qmd919PaXJOn-g6ogZzrWg/viewform) | `23:59 03.12.2022 / 10.12.2022` |
 | `10` | Descriptor protocol, inheritance | 26.11.22 | [webinar09](/webinar09) | [additional HA 9](https://docs.google.com/forms/d/e/1FAIpQLScsNjkCkZsSW-ss69VyIcJ4L5ctaZSot80TZIoXJvNWKIAm6g/viewform?usp=sf_link) | `23:59 09.12.2022 / 17.12.2022` |
+| `11` | HW solutions | 03.12.22 | [webinar10](/webinar10) |  |  |
+| `12` | Finalterm | 10.12.22 |  |  |  |
+| `13` | Network | 17.12.22 | [webinar11](/webinar11) |  |  |
+| `14` | git | 24.12.22 | [webinar12](/webinar12) |  |  |
 
 
 
@@ -52,3 +56,5 @@ You will gain insight into the correct design of the code, maintaining the codeb
 ## Final exam projects
 
 [Table](https://docs.google.com/spreadsheets/d/1nFaqJJ4etqHs3CHmgt2sLcRmXhfqQIWkL9mgziaNRFQ/edit?usp=sharing) for choosing your bot and criteria.
+
+[Form](https://docs.google.com/forms/d/e/1FAIpQLSflfpr80kz9GPbB1Cx_dCNsX8L6-B8ntgKQwPyGp-DSOTtIGw/viewform?usp=sharing) for your bots.
