@@ -20,7 +20,11 @@ You will gain insight into the correct design of the code, maintaining the codeb
 
 [Course plan](docs/course-plan.md) contains topics divided by webinars. Plan is approximate and being improved during the course.
 
-[Past year 1st semester exam topics](/docs/past-year-exam-topics-1.md) for the course.
+
+[Exam topics](/docs/exam-topics.md) for the course.
+<!-- [Past year 1st semester exam topics](/docs/past-year-exam-topics-1.md) for the course. -->
+
+
 
 
 ## 📚 Helpful scources
