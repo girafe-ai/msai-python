@@ -4,7 +4,7 @@
 ### Course schedule:
 | Week   | Topic                | Slides              | WarmUp test             | Home Assignment                  | 
 |:------:|:-----------------------|:--------------------:|:-----------------------:|:------------------------:|
-| 00     | Python Survival Kit      | [![Seminar](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/msai-python/blob/master/week01_python_survival_kit/W01.seminar.ipynb) | [Test](https://forms.gle/f7uz3643M4SEkPWT7) | [![HomeAssignment1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/msai-python/blob/master/week01_python_survival_kit/W01.tasks.ipynb) [Submit here](https://forms.yandex.ru/u/6aa64ece49af47ad71359101?lang=en) |
+| 00     | Python Survival Kit      | [![Seminar](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/msai-python/blob/master/week01_python_survival_kit/W01.seminar.ipynb) | [Test](https://forms.gle/f7uz3643M4SEkPWT7) | [![HomeAssignment1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/msai-python/blob/master/week01_python_survival_kit/W01.tasks.ipynb)<br>[Submit here](https://forms.yandex.ru/u/6aa64ece49af47ad71359101?lang=en) |
 | <sub> `01` </sub> | <sub> `Models of Computation` </sub> | <sub> ` TBD ` </sub> | <sub> ` TBD ` </sub> | <sub> ` TBD ` </sub> |
 | <sub> ` 02 ` </sub> | <sub> ` How Computers Execute Programs ` </sub> | <sub> ` TBD ` </sub> | <sub> ` TBD ` </sub> | <sub> ` TBD ` </sub> |
 | <sub> ` 03 ` </sub> | <sub> ` Programming Languages ` </sub> | <sub> ` TBD ` </sub> | <sub> ` TBD ` </sub> | <sub> ` TBD ` </sub> |
