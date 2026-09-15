@@ -66,10 +66,12 @@ class Visualizer:
     def _plain(
         self, machine: TuringMachine, info: StepInfo | None, *, rich: bool = False
     ) -> str:
+        pointer_indent = 4 + (max(3, self.width) // 2) * 2 + (0 if rich else 1)
         return (
             f"Step {machine.steps}\nState: {machine.state}\n\n"
             f"Previous transition: {_format_previous_transition(info)}\n\n"
-            f"{tape_window(machine, self.width, rich=rich)}\n\n"
+            f"{tape_window(machine, self.width, rich=rich)}\n"
+            f"{' ' * pointer_indent}▲\n\n"
             f"Next transition: {_format_next_transition(machine)}"
         )
 

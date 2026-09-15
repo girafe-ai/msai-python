@@ -3,7 +3,7 @@
 from pathlib import Path
 from typing import Iterable
 
-from .checker import CheckReport, TestResult, check_solution
+#from .checker import CheckReport, TestResult, check_solution
 from .machine import RunResult, StepInfo, TuringMachine
 from .parser import Program, Transition, parse_program, validate_program
 
