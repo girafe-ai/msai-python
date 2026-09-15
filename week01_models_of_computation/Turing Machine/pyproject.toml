@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "educational-turing-machine"
+version = "1.0.0"
+description = "A small deterministic single-tape Turing Machine emulator"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "MSAI"}]
+dependencies = []
+
+[project.optional-dependencies]
+visual = ["rich>=13"]
+test = ["pytest>=7"]
+
+[project.scripts]
+tm = "turing_machine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
