@@ -1,0 +1,21 @@
+# msai-python Fall 2026.
+# Software development & Python course.
+
+### Course schedule:
+| Week   | Topic                | Slides              | WarmUp test             | Home Assignment                  | 
+|:------:|:-----------------------|:--------------------:|:-----------------------:|:------------------------:|
+| 00     | Python Survival Kit      | [![Seminar](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/msai-python/blob/master/week01_python_survival_kit/W01.seminar.ipynb) | [Test](https://forms.gle/f7uz3643M4SEkPWT7) | [![HomeAssignment1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/girafe-ai/msai-python/blob/master/week01_python_survival_kit/W01.tasks.ipynb) [Submit here](https://forms.yandex.ru/u/6aa64ece49af47ad71359101?lang=en) |
+| <span style="color:lightgray"> 01 </span> | <span style="color:lightgray"> Models of Computation </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 02 </span> | <span style="color:lightgray"> How Computers Execute Programs </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 03 </span> | <span style="color:lightgray"> Programming Languages </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 04 </span> | <span style="color:lightgray"> Inside Python </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 05 </span> | <span style="color:lightgray"> Python as a High-Level Language </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 06 </span> | <span style="color:lightgray"> Python Object Model </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 07 </span> | <span style="color:lightgray"> Modules and Packages </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 08 </span> | <span style="color:lightgray"> Git &amp; Software Development Workflow </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 09 </span> | <span style="color:lightgray"> Testing Your Software </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 10 </span> | <span style="color:lightgray"> Programs &amp; Operating Systems </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 11 </span> | <span style="color:lightgray"> Concurrency </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 12 </span> | <span style="color:lightgray"> Networking &amp; Services </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 13 </span> | <span style="color:lightgray"> Virtualization, Docker &amp; Cloud </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
+| <span style="color:lightgray"> 14 </span> | <span style="color:lightgray"> Course Recap </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> | <span style="color:lightgray"> TBD </span> |
