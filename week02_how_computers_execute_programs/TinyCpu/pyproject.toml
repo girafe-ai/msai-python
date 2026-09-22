@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msai-tinycpu"
+version = "1.0.0"
+description = "Educational TinyCPU emulator"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+notebook = ["jupyter>=1", "nbconvert>=7", "ipykernel>=6"]
+
+[project.scripts]
+tinycpu = "tinycpu.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

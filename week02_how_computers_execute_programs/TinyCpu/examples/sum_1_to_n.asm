@@ -1,0 +1,9 @@
+LOAD R0, [INPUT]
+MOV R1, 0
+loop: CMP R0, 0
+JLE done
+ADD R1, R0
+SUB R0, 1
+JMP loop
+done: STORE [OUTPUT], R1
+HALT

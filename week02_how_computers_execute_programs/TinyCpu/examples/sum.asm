@@ -1,0 +1,6 @@
+; add two numbers
+LOAD R0, [INPUT]
+LOAD R1, [INPUT]
+ADD R0, R1
+STORE [OUTPUT], R0
+HALT
