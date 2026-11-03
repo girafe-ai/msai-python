@@ -1,4 +1,4 @@
-from expense_tracker.core import add_expense, stats_by_category, total_expenses
+from expense_tracker.core import add_expense, stats_by_category, total_expenses, Expense
 from expense_tracker.parser import parse_command
 
 
@@ -14,7 +14,7 @@ def execute(expenses, command, amount, category):
 
 
 def main():
-    expenses = []
+    expenses: list[Expense] = []
     print("Mini Expense Tracker")
     print("Commands: add AMOUNT CATEGORY | total | stats | quit")
     while True:
@@ -25,7 +25,7 @@ def main():
         try:
             command, amount, category = parse_command(text)
             output = execute(expenses, command, amount, category)
-        except:
+        except ValueError:
             print("failed")
             continue
         print(output)
